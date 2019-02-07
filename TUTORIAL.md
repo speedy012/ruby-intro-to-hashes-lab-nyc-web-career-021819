@@ -48,7 +48,8 @@ To pass this test, we need to add a key `:pieces` to the empty hash which is the
 def monopoly_with_second_tier
   monopoly = {
     railroads: {
-      pieces: 4
+      :pieces => 4,
+      :rent in 
     }
   }
 end
